@@ -1,0 +1,29 @@
+[theme]  
+primaryColor = '#000028'  
+backgroundColor = '#000028'  
+secondaryBackgroundColor = '#009999'  
+textColor = '#FFFFFF'  
+font = 'sans serif' 
+  
+[server]  
+# run Streamlit in headless mode (no browser)  
+headless = true  
+# set the port number to serve the app on  
+port = 8503
+# enable Cross-Origin Resource Sharing (CORS) if needed  
+enableCORS=true  
+enableXsrfProtection=false
+  
+[browser]  
+# set the server address for the browser  
+serverAddress = "localhost"  
+# set the server port for the browser  
+serverPort = 8503 
+gatherUsageStats = false
+  
+[logger]  
+# set the logging level (debug, info, warning, error, critical)  
+level = "error"  
+
+[global]
+developmentMode = false
