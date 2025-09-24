@@ -1,6 +1,6 @@
 import streamlit as st
 from langchain_openai import AzureChatOpenAI
-from ALFREDOCR.srv.imgtxt import IMG_TO_TEXT
+from srv.imgtxt import IMG_TO_TEXT
 
 import io
 from PIL import Image
